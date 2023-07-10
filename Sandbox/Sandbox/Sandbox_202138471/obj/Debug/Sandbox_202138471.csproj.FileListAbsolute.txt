@@ -1,0 +1,12 @@
+C:\Users\Cendstudios\source\repos\Sandbox_202138471\Sandbox_202138471\bin\Debug\Sandbox_202138471.pdb
+C:\Users\Cendstudios\source\repos\Sandbox_202138471\Sandbox_202138471\obj\Debug\Sandbox_202138471.pdb
+C:\Users\Cendstudios\source\repos\Sandbox_202138471\Sandbox_202138471\obj\Debug\Sandbox_202138471.Properties.Resources.resources
+C:\Users\Cendstudios\source\repos\Sandbox_202138471\Sandbox_202138471\obj\Debug\Sandbox_202138471.Sandbox.resources
+C:\Users\Cendstudios\source\repos\Sandbox_202138471\Sandbox_202138471\obj\Debug\Sandbox_202138471.csproj.GenerateResource.cache
+C:\Users\Cendstudios\source\repos\Sandbox_202138471\Sandbox_202138471\obj\Debug\Sandbox_202138471.csproj.CoreCompileInputs.cache
+C:\Users\Cendstudios\source\repos\Sandbox_202138471\Sandbox_202138471\obj\Debug\Sandbox_202138471.exe
+C:\Users\Cendstudios\source\repos\Sandbox_202138471\Sandbox_202138471\bin\Debug\Sandbox_202138471.exe.config
+C:\Users\Cendstudios\source\repos\Sandbox_202138471\Sandbox_202138471\bin\Debug\Sandbox_202138471.exe
+C:\Users\Cendstudios\source\repos\Sandbox_202138471\Sandbox_202138471\obj\Debug\Sandbox_202138471.About.resources
+C:\Users\Cendstudios\source\repos\Sandbox_202138471\Sandbox_202138471\obj\Debug\Sandbox_202138471.Help.resources
+C:\Users\Cendstudios\source\repos\Sandbox_202138471\Sandbox_202138471\obj\Debug\Sandbox_202138471.csproj.AssemblyReference.cache

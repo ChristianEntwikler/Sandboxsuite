@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Name: ENEBELI CHRISTIAN CHIDUBEM
+Student ID: 202138471
+Email: c.c.enebeli-2021@hull.ac.uk
+
+COURSEWORK ON TRUSTWORTHY COMPUTING
+Programming a Sandbox
+
+USER MANUAL
+
+Overview
+The sandbox is a windows GUI application. It has Program setup tab and permission setup tab. This current Sandbox version contains thirteen (13) permissions options. 
+Execution permission is set active at default. This means that any application called through the Sandbox should be executed except where other permissions are required to be set. Although, this execute permission can be disabled on the Sandbox permission tab view.
+
+Features of the Sandbox GUI 
+
+Application Menus
+There are two (2) menus on the Sandbox application:
+
+1. File Menu
+This comprises of the following Menu Items:
+New: This can be used to refresh the input / text fields on the Program Call Tab.
+Open: This can be used to run the application whose path is provided in the Program Path field.
+Close: This can be used to close the Sandbox application.
+
+2. Help Menu
+This is made up of the following Menu Items:
+View Help: This displays a dialog page which contains the full user manual for the Sandbox application.
+Author: This provides details of the author of this Sandbox version.
+
+Sandbox Program Call Tab
+This tab holds all the necessary fields and command for running an application through the Sandbox application. Program Call Tab holds the following controls:
+Program Path Field:  This displays the full folder path of the application to be called through the sandbox application.
+Browse button: This is used to launch a folder dialog that can be used to locate the application folder.
+Class Path field/textbox: This should hold the class path / package path where the method / entry point is. E.g. Bird.Flamingo
+Entry Point field/textbox: This field optional and it is where the main method to run is provided on the Sandbox. E.g. Main. If not provided by user on the GUI, the EntryPoint will be picked from the Assembly
+Arguments field/textbox: This is field that holds any argument(s) required by the untrusted application.
+File path: This is used to provide the path to the file that requires read, write or append permission on the untrusted application interface.
+Clear Buttons: All the clear buttons are used to clear any input / text field beside it.
+Run Button: The Run button is used to call / run the application whose path has been provided in the Program path field and all other fields have been well populated accordingly.
+
+Permission Set Tab
+There are thirteen (13) permissions made available on this Sandbox version. They include:
+Read Environment
+Execute
+UI Permission
+File Read
+File Write
+File Append
+File Dialog Open
+File Dialog Save
+Web / Internet
+Web Browser
+Socket
+DNS
+Printing
+
+Read Environment: This uses the DotNet framework 4.8 EnvironmentPermission class to create permission. Environment variable names are designated by one or more case-insensitive name lists separated by semicolons, with separate lists for read and write access to the named variables. However, only the read access is accessible with this option.
+
+Execute: This uses the SecurityPermission class to create execution permission. This permission uses the SecurityPermissionFlag enumeration to provide the Execution permission as an argument.
+
+UIPermission: This uses the UIPermission class to create permission to access a GUI interface, window. However this controls the permissions related to user interfaces and the Clipboard.
+
+File Read: This uses the FileIOPermission to create the read permission. This permission gives read access to the contents of the file or access to information about the file, such as its length or last modification time. Only the file granted file read permission can be read.
+
+File Write: This uses the FileIOPermission to create the write permission. This permission gives write access to the contents of the file or access to change information about the file, such as its name. Also allows for deletion and overwriting. Only the file granted file write permission can utilize it.
+
+File Append: This uses the FileIOPermission to create the read permission. This permission gives the ability to write to the end of a file only. No ability to read. Only the file granted file append permission can utilize it.
+
+File Dialog Open: This uses the FileDialogPermission class to create file dialog open permission. This controls the ability to access files or folders through a File dialog box.
+
+File Dialog Save: This uses the FileDialogPermission class to create file dialog save permission. This controls the ability to access files or folders through a File dialog box. 
+
+Web / Internet: This uses the WebPermission Class to create permission. WebPermission provides a set of methods and properties to control access to Internet resources. You can use a WebPermission to provide either restricted or unrestricted access to your resource, based on the PermissionState that is set when the WebPermission is created.
+
+Web Browser: This uses the WebBrowserPermission class to create permission. The Web browser permission enables frames to navigate HTML. This permission uses the values of the WebBrowserPermission enumerations.
+
+Socket: This uses the SocketPermission class to create socket permission. This permission controls rights to make or accept connections on a transport address.
+
+DNS: This uses the DNSPermission class to create DNS permission. This creates a new instance of the DnsPermission class that either allows unrestricted DNS access or disallows DNS access.
+
+Printing: This uses the dotnet-plat-ext-7.0 PrintingPermission class to create permission. This permission controls access to printers on the system where the Sandbox is running.
+
+How to Launch Sandbox GUI
+There are three ways to launch this Sandbox version:
+
+A. Launch Sandbox Executable
+Enter the application folder 
+Double the executable Sandbox.exe or right click Sandbox.exe and click open.
+
+B. Launch Sandbox GUI from Command Prompt
+Launch the Command Console application on your computer
+Change directory to the Sandbox application folder
+Type Sandbox 
+Click enter key.
+
+C. Launch and Execute Sandbox to run Untrusted Application from Command Line
+To execute the Sandbox application on command line/prompt, provide the Sandbox name and all arguments in the following format and order:
+Sandbox name&lt;SPACE&gt;Untrusted Application Folder Path&lt;SPACE&gt;Class Path &lt;SPACE&gt;Arguments&lt;SPACE&gt;Permission&lt;SPACE&gt;File Path 
+NB: When using command line / Prompt to call the Untrusted Application through Sandbox, the EntryPoint will be automatically picked from the Untrusted Application Assembly.
+
+Sandbox name – This is mandatory. E.g. Sandbox
+
+Untrusted Application Folder Path– This is mandatory. E.g. C:/
+
+Class Path– This is mandatory.  e.g. Fruit.Apple
+
+Arguments – This arguments must be in bracket e.g (0,1,2,3). This bracket can be empty if this extra arguments are not required.
+
+Permission – The required permissions must be listed in bracket in number representation. e.g (0,1,2,3,4,5,6,7,8,9,10,11,12)
+
+Following are the available permissions and their number representation:
+
+0 - Read Environment
+1 - Execute
+2 - UI Permission
+3 - File Read
+4 - File Write
+5 - File Append
+6 - File Dialog Open
+7 - File Dialog Save
+8 - Web / Internet
+9 - Web Browser
+10 - Socket
+11 - DNS
+12 - Printing
+
+File Path – This is optional. e.g C:/temp.txt
+
+Example of sample command:
+
+Sandbox C:\Users\Cends\source\repos\TestApp\TestApp\bin\Debug TestApp.Program () (1,2)
+
+How to Use Sandbox GUI to Run an Untrusted Application
+Steps:
+
+Program Path Field:  Provide the application folder path by using the browse button to browse to the application folder path or copy and paste the path in the Program Path textbox.
+
+Class Path field/textbox: Provide the Class path by pasting it in the Class Path textbox. E.g. Bird.Flamingo
+
+Entry Point field/textbox: This field is optional. User can specify the Entry Point of the Untrusted application by providing the method to be called which exists in the Class Path provided. E.g. Main. If not provided by the user, the Sandbox will automatically pick the EntryPoint from the Untrusted Application Assembly.
+
+Arguments field/textbox: Argument(s) required by the untrusted application should be provided in the arguments textbox. This field is optional. It can be left blank if no argument is required.
+
+File path: This can be used to provide the path to the file and the Untrusted application wants to read, write or append to. This textbox can be left blank as it is optional. 
+
+Clear Buttons: Use the clear buttons beside the textboxes to clear the textbox content.
+
+Permissions: Go to the permission tab and check all required permissions to run the Untrusted application.
+
+Click the Run button to call / run the application whose path has been provided in the Program path field/textbox and all other necessary fields/textboxes found under Program Call Tab have been well populated accordingly.
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABMLAAATCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaDQmAGg0JgNoNCYQaDQmFGg0JhRoNCYUaDQmFGg0
+        JhRoNCYUaDQmFGg0JhRoNCYUaDQmFGg0JgtoNCYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoNCYAaDQmGGg0JoVoNCajaDQmomg0
+        JqJoNCaiaDQmomg0JqJoNCaiaDQmomg0JqJoNCaeaDQmYGg0JhloNCYAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGg0JgBoNCYmaDQm0mg0
+        Jv9oNCb/aDQm/2g0Jv9oNCb/aDQm/2g0Jv9oNCb/aDQm/2g0JvdoNCa1aDQmdWg0JgFoNCYAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaDQmAGg0
+        JiZoNCbRaDQm/2g0Jv9oNCb/aDQm/2g0Jv9oNCb/aDQm/2g0Jv9oNCb/aDQm9mg0JsFoNCbPaDQmMmg0
+        JgBoNCYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AABoNCYAaDQmJmg0JtFoNCb/aDQm/2g0Jv9oNCb/aDQm/2g0Jv9oNCb/aDQm/2g0Jv9oNCb2aDQmvmg0
+        Jv9oNCZvaDQmAGg0JgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAGg0JgBoNCYmaDQm0Wg0Jv9oNCb/aDQm/2g0Jv9oNCb/aDQm/2g0Jv9oNCb/aDQm/2g0
+        JvZoNCa+aDQm/2g0JnhoNCYAaDQmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAaDQmAGg0JiZoNCbRaDQm/2g0Jv9oNCb/aDQm/2g0Jv9oNCb/aDQm/2g0
+        Jv9oNCb/aDQm9mg0Jr5oNCb/aDQmeGg0JgBoNCYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoNCYAaDQmJmg0JtFoNCb/aDQm/2g0Jv9oNCb/aDQm/2g0
+        Jv9oNCb/aDQm/2g0Jv9oNCb2aDQmvmg0Jv9oNCZ4aDQmAGg0JgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGg0JgBoNCYmaDQm0Wg0Jv9oNCb/aDQm/2g0
+        Jv9oNCb/aDQm/2g0Jv9oNCb/aDQm/2g0JvZoNCa+aDQm/2g0JnhoNCYAaDQmAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaDQmAGg0JiZoNCbRaDQm/2g0
+        Jv9oNCb/aDQm/2g0Jv9oNCb/aDQm/2g0Jv9oNCb/aDQm9mg0Jr5oNCb/aDQmeGg0JgBoNCYAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoNCYAaDQmJmg0
+        JtFoNCb/aDQm/2g0Jv9oNCb/aDQm/2g0Jv9oNCb/aDQm/2g0Jv9oNCb2aDQmvmg0Jv9oNCZ4aDQmAGg0
+        JgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGg0
+        JgBoNCYkaDMlx2cyJvdnMib1ZjEl9WcyJvVmMiX1ZzIl9WcyJvVnMiX1ZzIm9WcyJuxnMiW5aDQm/2g0
+        Jn5oNCYHaDQmBGg0JgFoNCYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoNCYAaDQmAmg0
+        Jg5oNCYeaDQmL2YxJUx2SS+KgVsxuYFbLriHYkC4gFosuIVfOLiDXTS4gVstuIReN7iCXDK4gVsutH5T
+        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
+        B///8A////gP///4H////B////4f//////8=
+</value>
+  </data>
+</root>
